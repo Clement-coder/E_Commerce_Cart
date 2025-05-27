@@ -578,6 +578,54 @@ video {
   top: 0px;
 }
 
+.left-2 {
+  left: 0.5rem;
+}
+
+.-right-2 {
+  right: -0.5rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.left-6 {
+  left: 1.5rem;
+}
+
+.-right-4 {
+  right: -1rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
+.left-48 {
+  left: 12rem;
+}
+
+.left-72 {
+  left: 18rem;
+}
+
+.left-60 {
+  left: 15rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -597,6 +645,11 @@ video {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .my-6 {
@@ -624,6 +677,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .flex {
   display: flex;
 }
@@ -648,6 +705,14 @@ video {
   height: 100%;
 }
 
+.h-0 {
+  height: 0px;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-0 {
   width: 0px;
 }
@@ -662,6 +727,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .cursor-pointer {
@@ -680,6 +749,10 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -690,6 +763,14 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .overflow-hidden {
@@ -750,6 +831,18 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.fill-\[\#36b4ee\] {
+  fill: #36b4ee;
+}
+
+.fill-\[\#e82993\] {
+  fill: #e82993;
+}
+
+.fill-\[\#ccc\] {
+  fill: #ccc;
 }
 
 .object-contain {
@@ -816,6 +909,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-base {
@@ -888,8 +986,18 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 .before\:absolute::before {
@@ -959,6 +1067,10 @@ video {
 .hover\:before\:w-full:hover::before {
   content: var(--tw-content);
   width: 100%;
+}
+
+.group:hover .group-hover\:h-full {
+  height: 100%;
 }
 
 .group:hover .group-hover\:w-full {
