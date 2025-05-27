@@ -82,5 +82,4 @@ fetch('https://fakestoreapi.com/products')
 
 clearCartBtn.addEventListener('click', clearCart);
 
-// Initialize on load
 updateCartUI();
