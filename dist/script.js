@@ -36,7 +36,7 @@ function updateCartUI() {
       <h3 class="text-sm font-semibold mb-1">${item.title}</h3>
       <p class="text-[#36b4ee] font-bold mb-1">$${item.price.toFixed(2)}</p>
        <button class="py-2 px-3 border border-black rounded-full relative overflow-hidden group hover:text-white">
-          <span class="relative z-10">Add to cart</span>
+          <span class="relative z-10">Remove from cart</span>
           <span class="absolute left-0 bottom-0 h-full w-0 bg-red-600 transition-all duration-500 group-hover:w-full z-0"></span>
         </button>
     `;
